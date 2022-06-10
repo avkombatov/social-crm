@@ -1,0 +1,174 @@
+.header {
+    background: #0050B3;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__right {
+        display: flex;
+        align-items:center;
+    }
+
+    &__search {
+        &-input {
+            width: 292px;
+            height: 32px;
+            font-size: 14px;
+            line-height: 22px;
+            border: none;
+            outline: none;
+            padding-left: 12px;
+
+            &::placeholder {
+                color: #BFBFBF;
+            }
+        }
+
+        &-svg {
+            height: 12px;
+            width: 12px;
+        }
+
+        &-button {
+            margin-left: -1px;
+            width: 32px;
+            height: 32px;
+            background: white;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__a-person_flex {
+        display: flex;
+        align-items: center;
+    }
+
+    &__avatar {
+        margin-right: 8px;
+    }
+
+    &__ul-person,
+    &__ul-message {
+        display: flex;
+        align-items: center;
+        height: 18px;
+    }
+
+    &__li-person:not(:first-child) {
+        border-left: 1px solid black;
+
+    }
+
+    &__a-person {
+        color: white;
+
+        &:hover {
+            color: #E5E5E5;
+            transition: 0.3s;
+        }
+    }
+
+    &__li-person {
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
+    &__li-title {
+        color: white;
+    }
+
+    // &__ul-message{
+    //     display: flex;
+    // }
+    &__people-svg {
+        width: 18px;
+        height: 20px;
+    }
+
+    &__message-svg {
+        width: 21px;
+        height: 21px;
+    }
+
+    &__bell-svg {
+        width: 15px;
+        height: 20px;
+    }
+
+    &__ul-message {
+        width: 90px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding-left: 15px;
+        padding-right: 15px;
+        // height: 16px;
+
+    }
+
+    &__message-li {
+        margin-right: 16px;
+        position: relative;
+    }
+
+    &__counter {
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background: #F5222D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -8px;
+        right: -10px;
+
+        &-span {
+            color: white;
+            font-size: 14px;
+            line-height: 22px;
+
+        }
+    }
+
+    &__people-svg,
+    &__message-svg {
+        &:hover {
+            fill: white;
+            transition: 0.3s;
+        }
+    }
+&__attention{
+    display: flex;
+    align-items:center;
+    margin-left: 8px;
+    &-a{
+        margin-right: 5px;
+
+    }
+    &-a_margin{
+       margin-top:-5px;
+    }
+}
+  
+
+    &__attention-svg {
+        width: 21px;
+        height: 21px;
+    }
+
+    &__arrow-svg {
+        width: 11px;
+        height: 6px;
+    }
+}

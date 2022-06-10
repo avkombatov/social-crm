@@ -1,0 +1,106 @@
+.main {
+    background-color: #E5E5E5;
+    height: 300px;
+    padding-top: 16px;
+
+    &__left {
+        &-name {
+            padding-left: 10px;
+        }
+
+        &-name-a {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 22px;
+            color: #262626;
+            &:hover{
+                color: black;
+            }
+        }
+
+        &-name-img {
+            margin-right: 8px;
+            height: 24px;
+            width: 24px;
+        }
+
+        &-ul {
+            margin-top: 12px;
+        }
+
+        &-li {
+            display: flex;
+            align-items: center;
+            height: 32px;
+            width: 168px;
+
+            border-radius: 4px;
+            justify-content: space-between;
+            padding-left: 12px;
+            padding-right: 12px;
+
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            &:hover .main__left-feed {
+                display: block;
+            }
+
+            &:hover .main__left-li-a {
+                color: black;
+                font-weight: 600;
+                transition: 0.3s;
+            }
+        }
+
+        &-svg-margin {
+            margin-right: 10px;
+        }
+
+        &-profile {
+            height: 20px;
+            width: 20px;
+
+        }
+
+        &-feed {
+            width: 15px;
+            height: 17px;
+            fill: #595959;
+            display: none;
+
+            &:hover {
+                fill: black;
+
+            }
+        }
+
+        &-message {
+            height: 21px;
+            width: 21px;
+            fill: #1890FF;
+        }
+
+        &-market {
+            height: 18px;
+            width: 18px;
+        }
+
+        &-li-a {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 22px;
+            color: #595959;
+
+            // &:hover {
+            //     color: black;
+            //     font-weight: 600;
+            // }
+        }
+    }
+}

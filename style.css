@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'San Francisco Pro Display';
+  src: url("fonts/SFProDisplay-Regular.woff2"), url("fonts/SFProDisplay-Regular.woff");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'San Francisco Pro Display';
+  src: url("/fonts/SFProDisplay-Semibold.woff2"), url("/fonts/SFProDisplay-Semibold.woff");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'San Francisco Pro Display', sans-serif;
+}
+
+.container {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background: #0050B3;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__search-input {
+  width: 292px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  padding-left: 12px;
+}
+
+.header__search-input::-webkit-input-placeholder {
+  color: #BFBFBF;
+}
+
+.header__search-input:-ms-input-placeholder {
+  color: #BFBFBF;
+}
+
+.header__search-input::-ms-input-placeholder {
+  color: #BFBFBF;
+}
+
+.header__search-input::placeholder {
+  color: #BFBFBF;
+}
+
+.header__search-svg {
+  height: 12px;
+  width: 12px;
+}
+
+.header__search-button {
+  margin-left: -1px;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__a-person_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__avatar {
+  margin-right: 8px;
+}
+
+.header__ul-person, .header__ul-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 18px;
+}
+
+.header__li-person:not(:first-child) {
+  border-left: 1px solid black;
+}
+
+.header__a-person {
+  color: white;
+}
+
+.header__a-person:hover {
+  color: #E5E5E5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__li-person {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.header__li-title {
+  color: white;
+}
+
+.header__people-svg {
+  width: 18px;
+  height: 20px;
+}
+
+.header__message-svg {
+  width: 21px;
+  height: 21px;
+}
+
+.header__bell-svg {
+  width: 15px;
+  height: 20px;
+}
+
+.header__ul-message {
+  width: 90px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header__message-li {
+  margin-right: 16px;
+  position: relative;
+}
+
+.header__counter {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: #F5222D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -8px;
+  right: -10px;
+}
+
+.header__counter-span {
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.header__people-svg:hover, .header__message-svg:hover {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+}
+
+.header__attention-a {
+  margin-right: 5px;
+}
+
+.header__attention-a_margin {
+  margin-top: -5px;
+}
+
+.header__attention-svg {
+  width: 21px;
+  height: 21px;
+}
+
+.header__arrow-svg {
+  width: 11px;
+  height: 6px;
+}
+
+.main {
+  background-color: #E5E5E5;
+  height: 300px;
+  padding-top: 16px;
+}
+
+.main__left-name {
+  padding-left: 10px;
+}
+
+.main__left-name-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.main__left-name-a:hover {
+  color: black;
+}
+
+.main__left-name-img {
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.main__left-ul {
+  margin-top: 12px;
+}
+
+.main__left-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 32px;
+  width: 168px;
+  border-radius: 4px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.main__left-li:hover {
+  background-color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main__left-li:hover .main__left-feed {
+  display: block;
+}
+
+.main__left-li:hover .main__left-li-a {
+  color: black;
+  font-weight: 600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main__left-svg-margin {
+  margin-right: 10px;
+}
+
+.main__left-profile {
+  height: 20px;
+  width: 20px;
+}
+
+.main__left-feed {
+  width: 15px;
+  height: 17px;
+  fill: #595959;
+  display: none;
+}
+
+.main__left-feed:hover {
+  fill: black;
+}
+
+.main__left-message {
+  height: 21px;
+  width: 21px;
+  fill: #1890FF;
+}
+
+.main__left-market {
+  height: 18px;
+  width: 18px;
+}
+
+.main__left-li-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+/*# sourceMappingURL=style.css.map */

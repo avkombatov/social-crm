@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'San Francisco Pro Display';
+    src: url('fonts/SFProDisplay-Regular.woff2'),
+        url('fonts/SFProDisplay-Regular.woff');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'San Francisco Pro Display';
+    src: url('/fonts/SFProDisplay-Semibold.woff2'),
+        url('/fonts/SFProDisplay-Semibold.woff');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'San Francisco Pro Display', sans-serif;
+    // transition: 0.3s;
+}
+
+.container {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
