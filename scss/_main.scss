@@ -1,6 +1,5 @@
 .main {
     background-color: #E5E5E5;
-    height: 300px;
     padding-top: 16px;
 
     &__left {
@@ -14,7 +13,8 @@
             font-size: 14px;
             line-height: 22px;
             color: #262626;
-            &:hover{
+
+            &:hover {
                 color: black;
             }
         }
@@ -90,17 +90,65 @@
             width: 18px;
         }
 
+        &-flag {
+            height: 19px;
+            width: 19px;
+        }
+
+        &-headphones {
+            height: 18px;
+            width: 18px;
+        }
+
+        &-house {
+            width: 21px;
+            height: 20px;
+        }
+
+        &-rocket {
+            width: 16px;
+            height: 20px;
+        }
+
+
         &-li-a {
             display: flex;
             align-items: center;
             font-size: 14px;
             line-height: 22px;
             color: #595959;
+        }
 
-            // &:hover {
-            //     color: black;
-            //     font-weight: 600;
-            // }
+        &-cup {
+            height: 19px;
+            width: 19px;
+        }
+
+        &-h6 {
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        &-more {
+            margin-left: 10px;
+            color: #1890FF;
+            margin-top: 13px;
+            display: block;
+
+            &:hover {
+                color: #0050B3;
+                transition: 0.3s;
+            }
+        }
+
+        &-more:hover .main__left-arrow {
+            fill: black;
+        }
+
+        &-arrow {
+            fill: #BFBFBF;
+            margin-right: 14px;
+
         }
     }
 }

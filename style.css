@@ -37,6 +37,17 @@ ul li {
   padding-right: calc(50% - 600px);
 }
 
+h6 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.arrow-down {
+  width: 11px;
+  height: 6px;
+}
+
 .header {
   background: #0050B3;
   height: 52px;
@@ -246,14 +257,8 @@ ul li {
   height: 21px;
 }
 
-.header__arrow-svg {
-  width: 11px;
-  height: 6px;
-}
-
 .main {
   background-color: #E5E5E5;
-  height: 300px;
   padding-top: 16px;
 }
 
@@ -353,6 +358,26 @@ ul li {
   width: 18px;
 }
 
+.main__left-flag {
+  height: 19px;
+  width: 19px;
+}
+
+.main__left-headphones {
+  height: 18px;
+  width: 18px;
+}
+
+.main__left-house {
+  width: 21px;
+  height: 20px;
+}
+
+.main__left-rocket {
+  width: 16px;
+  height: 20px;
+}
+
 .main__left-li-a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,5 +388,37 @@ ul li {
   font-size: 14px;
   line-height: 22px;
   color: #595959;
+}
+
+.main__left-cup {
+  height: 19px;
+  width: 19px;
+}
+
+.main__left-h6 {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.main__left-more {
+  margin-left: 10px;
+  color: #1890FF;
+  margin-top: 13px;
+  display: block;
+}
+
+.main__left-more:hover {
+  color: #0050B3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main__left-more:hover .main__left-arrow {
+  fill: black;
+}
+
+.main__left-arrow {
+  fill: #BFBFBF;
+  margin-right: 14px;
 }
 /*# sourceMappingURL=style.css.map */
