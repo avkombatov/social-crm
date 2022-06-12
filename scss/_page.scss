@@ -1,0 +1,108 @@
+.page {
+    background: white;
+    width: 344px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+
+    &__header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #D9D9D9;
+
+        &-menu-point {
+            height: 10px;
+        }
+    }
+
+    &__message,
+    &__notifications {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__info {
+        display: flex;
+        margin-top: 16px;
+        padding-bottom: 23px;
+        border-bottom: 1px solid #D9D9D9;
+
+        &-right {
+            margin-left: 12px;
+
+
+            &-a {
+                font-size: 14px;
+                line-height: 22px;
+                color: #8C8C8C;
+                margin-left: 5px;
+
+                &:hover {
+                    color: black;
+                    transition: 0.3s;
+                }
+            }
+
+            &-name {
+                display: block;
+                @include name;
+                &:hover{
+                    color: #FF4A44;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+
+    &__message-svg,
+    &__bell-svg {
+        height: 14px;
+        width: 14px;
+    }
+
+    &__tabs {
+        display: flex;
+        margin-top: 16px;
+
+        &-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 118px;
+            height: 40px;
+            border: 1px solid #D9D9D9;
+            color: #D9D9D9;
+
+            &:hover {
+                border: 1px solid #1890FF;
+                color: #1890FF;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    &__count {
+        margin-top: 16px;
+    }
+
+    &__number {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #262626;
+    }
+
+    &__count-info {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #8C8C8C;
+    }
+}

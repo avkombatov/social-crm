@@ -8,11 +8,12 @@
     padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 16px;
-   &__block{
-    display: flex;
-    align-items:center;
 
-   }
+    &__block {
+        display: flex;
+        align-items: center;
+
+    }
 
     &-svg {
         width: 24px;
@@ -27,7 +28,8 @@
 
     &__span {
         @include name;
-        &:hover{
+
+        &:hover {
             color: #FF4A44;
             transition: 0.3s;
         }

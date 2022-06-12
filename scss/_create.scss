@@ -5,10 +5,6 @@
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-    // &__top {
-    //     height: 40px;
-    // }
-
     &__header {
         background: #F5F5F5;
         height: 31px;
@@ -79,7 +75,8 @@
                 background: #e0dede;
                 transition: 0.3s;
             }
-            &-menu{
+
+            &-menu {
                 padding-left: 20px;
             }
         }
@@ -91,12 +88,8 @@
         width: 24px;
         height: 24px;
     }
-    &__menu-point{
-        fill:#595959;
+
+    &__menu-point {
+        fill: #595959;
     }
 }
-
-// .picture {
-//     width: 24px;
-//     height: 24px;
-// }

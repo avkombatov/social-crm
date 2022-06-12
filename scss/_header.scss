@@ -28,6 +28,10 @@
             &::placeholder {
                 color: #BFBFBF;
             }
+           
+        }
+        &-button{
+            cursor: pointer;
         }
 
         &-svg {
@@ -100,6 +104,7 @@
     &__bell-svg {
         width: 15px;
         height: 20px;
+        fill: white;
     }
 
     &__ul-message {
