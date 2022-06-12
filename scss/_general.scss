@@ -52,26 +52,30 @@ h6 {
 }
 
 .more {
-    // margin-left: 10px;
     color: #1890FF;
     margin-top: 13px;
     display: block;
+
     &:hover {
         color: #0050B3;
         transition: 0.3s;
     }
-    &:hover .main__left-arrow {
+
+    &:hover .more-arrow {
         fill: black;
         transition: 0.3s;
+    }
+
+    &-arrow {
+        fill: #BFBFBF;
+        margin-right: 14px;
     }
 }
 
 @mixin name {
     font-size: 14px;
     line-height: 22px;
-    display: flex;
-    align-items: center;
-    color: #0050B3;
+       color: #0050B3;
     font-weight: 600;
 }
 

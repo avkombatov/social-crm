@@ -60,10 +60,15 @@ h6 {
   transition: 0.3s;
 }
 
-.more:hover .main__left-arrow {
+.more:hover .more-arrow {
   fill: black;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.more-arrow {
+  fill: #BFBFBF;
+  margin-right: 14px;
 }
 
 hr {
@@ -426,8 +431,7 @@ hr {
 }
 
 .main__left-arrow {
-  fill: #BFBFBF;
-  margin-right: 14px;
+  margin-left: 14px;
 }
 
 .main__middle {
@@ -579,12 +583,6 @@ hr {
 .post__header-name-a {
   font-size: 14px;
   line-height: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #0050B3;
   font-weight: 600;
 }
@@ -696,6 +694,7 @@ hr {
   padding-right: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .stories__header {
@@ -775,12 +774,6 @@ hr {
 .stories__item-header {
   font-size: 14px;
   line-height: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #0050B3;
   font-weight: 600;
 }
@@ -812,5 +805,51 @@ hr {
 .point {
   height: 4px;
   width: 4px;
+}
+
+.brithday {
+  background: white;
+  width: 344px;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.brithday__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brithday-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.brithday__info {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.brithday__span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  font-weight: 600;
+}
+
+.brithday__span:hover {
+  color: #FF4A44;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
