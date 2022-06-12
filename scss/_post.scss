@@ -1,3 +1,115 @@
-.post{
-    background:white;
+.post {
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 25px;
+    padding-bottom: 18px;
+    margin-top: 16px;
+    background: white;
+    width: 548px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-bottom: 16px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        &-left {
+            display: flex;
+        }
+
+        &-name {
+            margin-left: 12px;
+
+            &-a {
+                @include name;
+            }
+        }
+
+        &-setting {
+            margin-top: 2px;
+            margin-left: 10px;
+        }
+
+        &-time {
+            display: flex;
+            font-size: 14px;
+            line-height: 22px;
+            color: #8C8C8C;
+        }
+    }
+
+    &__text {
+        margin-top: 16px;
+        padding-bottom: 16px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #595959;
+        width: 550px;
+    }
+
+    &__like {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        display: flex;
+        align-items: center;
+
+        &-a {
+            cursor: pointer;
+        }
+
+        &-count {
+            font-size: 14px;
+            line-height: 22px;
+            color: #595959;
+            margin-left: 5px;
+        }
+    }
+
+    &__comment {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 18px;
+       
+
+        &-block {
+            display: flex;
+            font-size: 14px;
+            line-height: 22px;
+            color: #595959;
+        }
+
+        &-svg {
+            margin-right: 10px;
+            height: 21px;
+            width: 21px;
+            fill: #595959;
+        }
+    }
+
+}
+
+.gear {
+    width: 11px;
+    height: 12px;
+}
+
+.menu-point {
+    width: 24px;
+    height: 24px;
+    fill: #595959;
+}
+
+.like {
+    width: 13px;
+    height: 13px;
+    fill: #1890FF;
+}
+
+.comment__like {
+    width: 18px;
+    height: 19px;
+    cursor: pointer;
+    fill: #595959;
 }

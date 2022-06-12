@@ -130,26 +130,18 @@
             margin-left: 10px;
         }
 
-        &-more {
-            margin-left: 10px;
-            color: #1890FF;
-            margin-top: 13px;
-            display: block;
-
-            &:hover {
-                color: #0050B3;
-                transition: 0.3s;
-            }
-        }
-
-        &-more:hover .main__left-arrow {
-            fill: black;
-        }
+    
 
         &-arrow {
             fill: #BFBFBF;
             margin-right: 14px;
 
         }
+    }
+    &__middle{
+        margin-left: 18px;
+    }
+    &__right{
+        margin-left: 24px;
     }
 }

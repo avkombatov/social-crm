@@ -236,7 +236,7 @@
                     </a>
                 </li>
             </ul>
-            <a href="#" class="main__left-more">
+            <a href="#" class="main__left-more more">
                 <svg class="arrow-down main__left-arrow">
                     <use xlink:href="sprite.svg#arrow-down"></use>
                 </svg>
@@ -286,22 +286,124 @@
             <div class="post">
                 <header class="post__header">
                     <div class="post__header-left">
-                         <a href="#">
-                        <img src="img/post.png" alt="avatar">
-                    </a>
-                    <div class="post__header-name">
-                        <a href="#" class="post__header-name-a">
-                            Mateusz Wierzbicki
+                        <a href="#">
+                            <img src="img/post.png" alt="avatar">
                         </a>
-                         <p>3 hrs 
-<svg>
-    <use xlink:href="sprite.svg#gear"></use>
-</svg>
-                         </p>
+                        <div class="post__header-name">
+                            <a href="#" class="post__header-name-a">
+                                Mateusz Wierzbicki
+                            </a>
+                            <p class="post__header-time">3 hrs
+                                <a href="#" class="post__header-setting">
+                                    <svg class="gear post__gear">
+                                        <use xlink:href="sprite.svg#gear"></use>
+                                    </svg>
+                                </a>
+                            </p>
+                        </div>
+
                     </div>
-                    </div>
-                   
+                    <a href="#" class="post__header-menu">
+                        <svg class="menu-point">
+                            <use xlink:href="sprite.svg#menu-point"></use>
+                        </svg>
+                    </a>
+
                 </header>
+                <div class="post__text">
+                    Did you know that all of this was made using only components and styles from Ant Desing System for
+                    Figma? <br>
+                    Learn more: https://antforfigma.com
+                </div>
+                <div class="post__img">
+                    <img class="post__img-pic" src="img/post-img.png" alt="pictire">
+                </div>
+                <div class="post__like">
+                    <svg class="like post__like-a">
+                        <use xlink:href="sprite.svg#like"></use>
+                    </svg>
+                    <span class="post__like-count">23</span>
+                </div>
+                <hr>
+                <div class="post__comment">
+                    <a href="#" class="post__comment-block">
+                        <svg class="like comment__like post__comment-svg">
+                            <use xlink:href="sprite.svg#like"></use>
+                        </svg>
+                        Like
+                    </a>
+                    <a href="#" class="post__comment-block">
+                        <svg class="message comment__message post__comment-svg">
+                            <use xlink:href="sprite.svg#message"></use>
+                        </svg>
+                        Comment
+                    </a>
+                    <a href="#" class="post__comment-block">
+                        <svg class="like comment__like post__comment-svg">
+                            <use xlink:href="sprite.svg#share"></use>
+                        </svg>
+                        Share
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main__right">
+            <div class="stories">
+                <header class="stories__header">
+                    <h4 class="stories__header-h4">Stories</h4>
+                    <div class="stories__header-block">
+                        <svg class="clock stories__header-clock">
+                            <use xlink:href="sprite.svg#clock"></use>
+                        </svg>
+                        <a href="#" class="stories__header-a">Archive</a>
+                        <svg class="point stories__header-point">
+                            <use xlink:href="sprite.svg#point"></use>
+                        </svg>
+                        <a href="#" class="stories__header-a">Settings</a>
+                    </div>
+                </header>
+                <div class="stories__item">
+                    <div class="stories__item-pic">
+                        <span class="stories__item-plus">+</span>
+                    </div>
+                    <div class="stories__item-info">
+                        <a href="#" class="stories__item-header">Add to your story</a>
+                        <p class="stories__item-footer">Share a photo or video or write something</p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="stories__item-pic">
+                        <img src="img/concuria.png" alt="concuria">
+                    </div>
+                    <div class="stories__item-info">
+                        <a href="#" class="stories__item-header">Concuria</a>
+                        <p class="stories__item-footer">4 hours ago</p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="stories__item-pic">
+                        <img src="img/figma.png" alt="figma">
+                    </div>
+                    <div class="stories__item-info">
+                        <a href="#" class="stories__item-header">Figma</a>
+                        <p class="stories__item-footer">5 hours ago</p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="stories__item-pic">
+                        <img src="img/design.png" alt="design">
+                    </div>
+                    <div class="stories__item-info">
+                        <a href="#" class="stories__item-header">Ant Design</a>
+                        <p class="stories__item-footer">6 hours ago</p>
+                    </div>
+                </div>
+                <a href="#" class="more">
+                    <svg class="arrow-down main__left-arrow">
+                        <use xlink:href="sprite.svg#arrow-down"></use>
+                    </svg>
+                    See more...
+                </a>
             </div>
         </section>
     </main>

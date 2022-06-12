@@ -6,6 +6,7 @@
     font-display: swap;
     font-weight: 300;
 }
+
 @font-face {
     font-family: 'San Francisco Pro Display';
     src: url('/fonts/SFProDisplay-Semibold.woff2'),
@@ -38,12 +39,44 @@ ul li {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
-h6{
+
+h6 {
     font-weight: 600;
     font-size: 12px;
-line-height: 20px;
+    line-height: 20px;
 }
-.arrow-down{
+
+.arrow-down {
     width: 11px;
-    height: 6px;
+    height: 10px;
 }
+
+.more {
+    // margin-left: 10px;
+    color: #1890FF;
+    margin-top: 13px;
+    display: block;
+    &:hover {
+        color: #0050B3;
+        transition: 0.3s;
+    }
+    &:hover .main__left-arrow {
+        fill: black;
+        transition: 0.3s;
+    }
+}
+
+@mixin name {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #0050B3;
+    font-weight: 600;
+}
+
+hr {
+    background: #E8E8E8;
+}
+
+$color1: #0050B3;
